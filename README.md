@@ -287,7 +287,10 @@ RaspberryPi 4 Model B Version: Raspbian GNU Linux 10 Buster
 
 [source](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
+## StoryBoard
 
+![Alt text](Images/SB1.PNG)
+![Alt text](Images/SB2.PNG)
 
 
 
