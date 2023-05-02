@@ -3,8 +3,8 @@ this is the start of EGL315's project github reporsitory.
 
 ## System Diagram
 ## Control
+![Alt text](images/control%20system%20diagram1.jpg)
 
-![Alt text](images/control%20system%20diagram.jpg)
 
 ## Video
 ![Alt text](images/video%20system%20diagram.jpg)
