@@ -294,6 +294,17 @@ RaspberryPi 4 Model B Version: Raspbian GNU Linux 10 Buster
 
 
 
+## References
+https://www.youtube.com/watch?v=rF4BCMs-8BE&t=66s - Emergency Alert System video
+
+https://www.youtube.com/watch?v=qEX7iznFi3E - Audio Spectrum(wave)
+
+https://beta.elevenlabs.io - Used for dialouge 
+
+
+
+
+
 
 
 
