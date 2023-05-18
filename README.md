@@ -293,6 +293,9 @@ RaspberryPi 4 Model B Version: Raspbian GNU Linux 10 Buster
 ![Alt text](Images/SB2.PNG)
 
 
+## Timeline(Week 1 - 8)
+![Alt text](Images/w1-w4.PNG)
+![Alt text](Images/w4-w8.PNG)
 
 ## References
 https://www.youtube.com/watch?v=rF4BCMs-8BE&t=66s - Emergency Alert System video
