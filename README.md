@@ -304,6 +304,10 @@ https://www.youtube.com/watch?v=qEX7iznFi3E - Audio Spectrum(wave)
 
 https://beta.elevenlabs.io - Used for dialouge 
 
+https://www.youtube.com/watch?v=OYrTQsi1NtE&t=4s - C4 Bomb with Timer
+
+https://www.youtube.com/watch?v=7guNNC2QEKo - Timer Ticking Noise
+
 
 
 
