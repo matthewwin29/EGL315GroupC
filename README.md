@@ -308,7 +308,9 @@ https://www.youtube.com/watch?v=OYrTQsi1NtE&t=4s - C4 Bomb with Timer
 
 https://www.youtube.com/watch?v=7guNNC2QEKo - Timer Ticking Noise
 
+https://www.youtube.com/watch?v=RfUKmEDNlsA - Explosion
 
+https://www.youtube.com/watch?v=_ttHanoHTL4 - explosion sound
 
 
 
