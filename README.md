@@ -312,6 +312,93 @@ https://www.youtube.com/watch?v=RfUKmEDNlsA - Explosion
 
 https://www.youtube.com/watch?v=_ttHanoHTL4 - explosion sound
 
+Code:
+
+import RPi.GPIO as GPIO
+import time
+import socket
+import random
+
+
+TCP_IP = '192.168.254.11'
+TCP_PORT = 5612
+BUFFER_SIZE = 1024
+MESSAGE = b'Easy'
+MESSAGE1 = b'Hard'
+MESSAGE2 = b'0'
+MESSAGE3 = b'Correct'
+MESSAGE4 = b'Wrong'
+MESSAGE5 = b'correct'
+
+
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+GPIO.setup(23,GPIO.OUT)
+GPIO.setup(24,GPIO.IN)
+GPIO.setup(16,GPIO.IN)
+GPIO.setup(17,GPIO.IN)
+GPIO.setup(22,GPIO.IN)
+GPIO.setup(26,GPIO.OUT)
+GPIO.setup(27,GPIO.OUT)
+GPIO.setup(6,GPIO.OUT)
+GPIO.setup(5,GPIO.IN)
+
+
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.connect((TCP_IP,TCP_PORT))
+
+
+while True:
+    light = random.randint(1,2)
+    if GPIO.input(16):
+        GPIO.output(26, True)
+        s.send(MESSAGE3)
+        time.sleep(1)
+        s.send(MESSAGE2)
+        time.sleep(1)
+        
+    elif GPIO.input(17):
+        GPIO.output(27, True)
+        s.send(MESSAGE3)
+        time.sleep(1)
+        s.send(MESSAGE2)
+        time.sleep(1)
+        
+    elif GPIO.input(22):
+        GPIO.output(6, True)
+        s.send(MESSAGE5)
+        time.sleep(1)
+        s.send(MESSAGE2)
+        time.sleep(1)
+        
+    elif GPIO.input(5):
+        GPIO.output(23, True)
+        s.send(MESSAGE4)
+        time.sleep(1)
+        s.send(MESSAGE2)
+        time.sleep(1)
+        
+        
+        
+        
+    
+    elif GPIO.input(24):
+        print (light)
+        if light == 1:
+            s.send(MESSAGE)
+            time.sleep(1)
+            s.send(MESSAGE2)
+        elif light == 2:
+            s.send(MESSAGE1)
+            time.sleep(1)
+            s.send(MESSAGE2)
+    else:
+            GPIO.output(23,False)
+            GPIO.output(26,False)
+            GPIO.output(27,False)
+            GPIO.output(6,False
+
 
 
 
