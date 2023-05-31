@@ -289,20 +289,21 @@ RaspberryPi 4 Model B Version: Raspbian GNU Linux 10 Buster
 
 ## StoryBoard
 
-![Alt text](Images/SB1.PNG)
-![Alt text](Images/SB2.PNG)
+![Alt text](Images/0.PNG)
+![Alt text](Images/1.PNG)
+![Alt text](Images/2.PNG)
+![Alt text](Images/3.PNG)
+![Alt text](Images/4.PNG)
 
 
-## Timeline(Week 1 - 8)
-![Alt text](Images/w1-w4.PNG)
-![Alt text](Images/w4-w8.PNG)
 
 ## References
-https://www.youtube.com/watch?v=rF4BCMs-8BE&t=66s - Emergency Alert System video
+
+https://www.youtube.com/watch?v=Wa5aasz5VXg&ab_channel=RottenTomatoesTrailers - trailer(scene 0)
 
 https://www.youtube.com/watch?v=qEX7iznFi3E - Audio Spectrum(wave)
 
-https://beta.elevenlabs.io - Used for dialouge 
+https://www.topmediai.com/text-to-speech/ - Used for dialouge 
 
 https://www.youtube.com/watch?v=OYrTQsi1NtE&t=4s - C4 Bomb with Timer
 
@@ -311,6 +312,8 @@ https://www.youtube.com/watch?v=7guNNC2QEKo - Timer Ticking Noise
 https://www.youtube.com/watch?v=RfUKmEDNlsA - Explosion
 
 https://www.youtube.com/watch?v=_ttHanoHTL4 - explosion sound
+
+
 
 
 
