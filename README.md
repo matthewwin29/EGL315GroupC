@@ -132,10 +132,6 @@ while True:
         s.send(MESSAGE2)
         time.sleep(1)
         
-        
-        
-        
-    
     elif GPIO.input(24):
         print (light)
         if light == 1:
