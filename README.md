@@ -26,8 +26,7 @@ This **markdown document** will explain the steps necessary to install the requi
 # Syntax
 1. ## Theme
     1. Theme choice
-    2. Choice of Feature
-    3. Intention of use
+    2. Intention of use
 2. ## Research
     1. Benefits of Interactive Features
 
@@ -36,16 +35,26 @@ This **markdown document** will explain the steps necessary to install the requi
 ## **Theme choice**
 The theme we have chosen for our 315 Module is **Multiplayer Bomb Defusal**, We chose this theme as we want to give our players a thrilling experience as they try to defuse a bomb within 20 or 30 seconds while also making it competitive between 2 humans.
 
-## **Choice of Feature**
-
 
 ## **Intention of use**
+We intend to give our users/players a memorable, immersive, competitive and interactive multiplayer experience that will require them to click buttons according to a sequence to make it our "alive".
+
+## **Hardware Used**
+- Raspberry Pi
+- Christie's Pandora Box
+- Speakers
+- Lighting
+- Buttons
 
 
-## **Hardware specifiactions**
+# Research
 
-### **Hardware Used** ###
-RaspberryPi 4 Model B Version: Raspbian GNU Linux 10 Buster
+## Benefits of Interactive Features
+- Immersive Experience: The combination of lights, surround sound, and high-quality video creates an immersive experience for the audience.
+- Enhanced Engagement: The use of lights, surround sound, and good video can enhance engagement by capturing and holding the attention of the viewers
+- Memorable Experience: The combination of lights, surround sound, and good video can create a memorable experience that stays with the viewers long after the project is over.
+
+
 
 ![](images/Pi4.jpg)
 
