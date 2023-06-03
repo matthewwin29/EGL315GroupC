@@ -70,23 +70,8 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 
 
-## References
 
-https://www.youtube.com/watch?v=Wa5aasz5VXg&ab_channel=RottenTomatoesTrailers - trailer(scene 0)
-
-https://www.youtube.com/watch?v=qEX7iznFi3E - Audio Spectrum(wave)
-
-https://www.topmediai.com/text-to-speech/ - Used for dialouge 
-
-https://www.youtube.com/watch?v=OYrTQsi1NtE&t=4s - C4 Bomb with Timer
-
-https://www.youtube.com/watch?v=7guNNC2QEKo - Timer Ticking Noise
-
-https://www.youtube.com/watch?v=RfUKmEDNlsA - Explosion
-
-https://www.youtube.com/watch?v=_ttHanoHTL4 - explosion sound
-
-Code:
+## Code:
 
 import RPi.GPIO as GPIO
 import time
@@ -173,6 +158,21 @@ while True:
             GPIO.output(27,False)
             GPIO.output(6,False
 
+## References
+
+https://www.youtube.com/watch?v=Wa5aasz5VXg&ab_channel=RottenTomatoesTrailers - trailer(scene 0)
+
+https://www.youtube.com/watch?v=qEX7iznFi3E - Audio Spectrum(wave)
+
+https://www.topmediai.com/text-to-speech/ - Used for dialouge 
+
+https://www.youtube.com/watch?v=OYrTQsi1NtE&t=4s - C4 Bomb with Timer
+
+https://www.youtube.com/watch?v=7guNNC2QEKo - Timer Ticking Noise
+
+https://www.youtube.com/watch?v=RfUKmEDNlsA - Explosion
+
+https://www.youtube.com/watch?v=_ttHanoHTL4 - explosion sound
 
 
 
