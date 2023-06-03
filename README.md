@@ -1,6 +1,4 @@
-
-this is the start of EGL315's project github reporsitory.
-# **EGL315 GROUP C**
+# EGL 315 PROJCT DEFUSION - GROUP C
 
 This **markdown document** will explain the steps necessary to install the required libraries to run the feature's python script, a detailed explanation of the funtions of the code, the reasoning for the theme I selected for the project and my intention on how it would interact with the audience during the End Of Semester showcase.
 
