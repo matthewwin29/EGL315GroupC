@@ -1,24 +1,5 @@
 
 this is the start of EGL315's project github reporsitory.
-
-## System Diagram
-## Control
-![Alt text](images/control%20system%20diagram1.jpg)
-
-
-## Video
-![Alt text](images/video%20system%20diagram.jpg)
-
-## Audio
-![Alt text](images/audio%20system%20diagram.jpg)
-
-## Lighting
-![Alt text](images/lighting%20system%20diagram.jpg)
-
-
-
-
-
 # **EGL315 GROUP C**
 
 This **markdown document** will explain the steps necessary to install the required libraries to run the feature's python script, a detailed explanation of the funtions of the code, the reasoning for the theme I selected for the project and my intention on how it would interact with the audience during the End Of Semester showcase.
@@ -54,6 +35,19 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 - Enhanced Engagement: The use of lights, surround sound, and good video can enhance engagement by capturing and holding the attention of the viewers
 - Memorable Experience: The combination of lights, surround sound, and good video can create a memorable experience that stays with the viewers long after the project is over.
 
+## System Diagram
+## Control
+![Alt text](images/control%20system%20diagram1.jpg)
+
+
+## Video
+![Alt text](images/video%20system%20diagram.jpg)
+
+## Audio
+![Alt text](images/audio%20system%20diagram.jpg)
+
+## Lighting
+![Alt text](images/lighting%20system%20diagram.jpg)
 
 
 ![](images/Pi4.jpg)
