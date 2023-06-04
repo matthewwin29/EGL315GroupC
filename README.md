@@ -35,17 +35,17 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 ## System Diagram
 ## Control
-![Alt text](images/control%20system%20diagram1.jpg)
+![Alt text](images/Control.png)
 
 
 ## Video
-![Alt text](images/video%20system%20diagram.jpg)
+![Alt text](images/Video.png)
 
 ## Audio
-![Alt text](images/audio%20system%20diagram.jpg)
+![Alt text](images/Audio.png)
 
 ## Lighting
-![Alt text](images/lighting%20system%20diagram.jpg)
+![Alt text](images/Lighting.png)
 
 
 ![](images/Pi4.jpg)
@@ -63,7 +63,7 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 
 
-## Code:
+# Code:
 
 import RPi.GPIO as GPIO
 import time
@@ -144,7 +144,7 @@ while True:
             GPIO.output(23,False)
             GPIO.output(26,False)
             GPIO.output(27,False)
-            GPIO.output(6,False
+            GPIO.output(6,False)
 
 ## References
 
