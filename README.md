@@ -82,76 +82,108 @@ Display Screen
 
 
     import RPi.GPIO as GPIO
-    import time
-    import socket
-    import random
+import time
+import socket
+import random
 
 
-    TCP_IP = '192.168.254.11'
-    TCP_PORT = 5612
-    BUFFER_SIZE = 1024
-    MESSAGE = b'Easy'
-    MESSAGE1 = b'Hard'
-    MESSAGE2 = b'0'
-    MESSAGE3 = b'Correct'
-    MESSAGE4 = b'Wrong'
-    MESSAGE5 = b'correct'
+TCP_IP = '192.168.254.11'
+TCP_PORT = 5612
+BUFFER_SIZE = 1024
+MESSAGE = b'Easy'
+MESSAGE1 = b'Hard'
+MESSAGE2 = b'0'
+MESSAGE3 = b'Correct'
+MESSAGE4 = b'Wrong'
+MESSAGE5 = b'correct'
 
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setwarnings(False)
-    GPIO.setup(23,GPIO.OUT)
-    GPIO.setup(24,GPIO.IN)
-    GPIO.setup(16,GPIO.IN)
-    GPIO.setup(17,GPIO.IN)
-    GPIO.setup(22,GPIO.IN)
-    GPIO.setup(26,GPIO.OUT)
-    GPIO.setup(27,GPIO.OUT)
-    GPIO.setup(6,GPIO.OUT)
-    GPIO.setup(5,GPIO.IN)
 
-    s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-    s.connect((TCP_IP,TCP_PORT))
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+GPIO.setup(17,GPIO.OUT)
+GPIO.setup(27,GPIO.OUT)
+GPIO.setup(23,GPIO.OUT)
+GPIO.setup(22,GPIO.IN)
+GPIO.setup(24,GPIO.IN)
+GPIO.setup(5,GPIO.IN)
+GPIO.setup(6,GPIO.IN)
+GPIO.setup(16,GPIO.IN)
+GPIO.setup(26,GPIO.IN)
 
-    while True:
 
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.connect((TCP_IP,TCP_PORT))
+
+count = 0
+
+while True:
     light = random.randint(1,2)
-    
-    if GPIO.input(16):
-    
-    
-        GPIO.output(26, True)
-        
-        s.send(MESSAGE3)
-        
-        time.sleep(1)
-        
-        s.send(MESSAGE2)
-        
-        time.sleep(1)
-        
-    elif GPIO.input(17):
-        GPIO.output(27, True)
-        s.send(MESSAGE3)
-        time.sleep(1)
-        s.send(MESSAGE2)
-        time.sleep(1)
-        
-    elif GPIO.input(22):
-        GPIO.output(6, True)
-        s.send(MESSAGE5)
-        time.sleep(1)
-        s.send(MESSAGE2)
-        time.sleep(1)
+    if GPIO.input(24):
+        count = count +1
+        print (count)
+        if count == 2:
+            s.send(MESSAGE4)
+            time.sleep(1)
+            s.send(MESSAGE2)
+            time.sleep(1)
+        else:
+            GPIO.output(17, True)
+            s.send(MESSAGE3)
+            time.sleep(1)
+            s.send(MESSAGE2)
+            time.sleep(1)
         
     elif GPIO.input(5):
-        GPIO.output(23, True)
+        count = count +1
+        print (count)
+        if count == 1:
+            s.send(MESSAGE4)
+            time.sleep(1)
+            s.send(MESSAGE2)
+            time.sleep(1)
+        else:
+            GPIO.output(27, True)
+            s.send(MESSAGE3)
+            time.sleep(1)
+            s.send(MESSAGE2)
+            time.sleep(1)
+        
+    elif GPIO.input(6):
         s.send(MESSAGE4)
         time.sleep(1)
         s.send(MESSAGE2)
         time.sleep(1)
         
-    elif GPIO.input(24):
+    elif GPIO.input(16):
+        count = count +1
+        print (count)
+        if count == 1:
+            s.send(MESSAGE4)
+            time.sleep(1)
+            s.send(MESSAGE2)
+            time.sleep(1)
+        elif count == 2:
+            s.send(MESSAGE4)
+            time.sleep(1)
+            s.send(MESSAGE2)
+            time.sleep(1)
+        else:
+            GPIO.output(23,True)
+            s.send(MESSAGE5)
+            time.sleep(1)
+            s.send(MESSAGE2)
+            time.sleep(1)
+            
+    elif GPIO.input(26):
+        s.send(MESSAGE4)
+        time.sleep(1)
+        s.send(MESSAGE2)
+        time.sleep(1)
+        
+        
+        
+    elif GPIO.input(22):
         print (light)
         if light == 1:
             s.send(MESSAGE)
@@ -162,12 +194,10 @@ Display Screen
             time.sleep(1)
             s.send(MESSAGE2)
     else:
-            GPIO.output(23,False)
-            GPIO.output(26,False)
+            GPIO.output(17,False)
             GPIO.output(27,False)
-            GPIO.output(6,False)
-
-
+            GPIO.output(23,False)
+           
 
 ## References
 
