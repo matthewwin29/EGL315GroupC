@@ -66,6 +66,10 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 ![Alt text](Images/315_TIMELINE.PNG)
 
 
+## Widget Designer Information
+
+![Alt text](Images/WIDGET_315.PNG)
+
 # Code:
 
 import RPi.GPIO as GPIO
