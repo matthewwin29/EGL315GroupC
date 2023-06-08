@@ -62,7 +62,8 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 ## Christie Pnadora Box Information
 
-
+![Alt text](315_CONTENT.PNG)
+![Alt text](315_TIMELINE.PNG)
 
 
 # Code:
