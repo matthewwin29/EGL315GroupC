@@ -60,6 +60,9 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 ![Alt text](Images/3.PNG)
 ![Alt text](Images/4.PNG)
 
+## Setup
+![Alt text](Images/setup1.PNG)
+
 ## Christie Pnadora Box Information
 
 ![Alt text](Images/315_CONTENT.PNG)
@@ -72,48 +75,54 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 # Code:
 
-import RPi.GPIO as GPIO
-import time
-import socket
-import random
+
+    import RPi.GPIO as GPIO
+    import time
+    import socket
+    import random
 
 
-TCP_IP = '192.168.254.11'
-TCP_PORT = 5612
-BUFFER_SIZE = 1024
-MESSAGE = b'Easy'
-MESSAGE1 = b'Hard'
-MESSAGE2 = b'0'
-MESSAGE3 = b'Correct'
-MESSAGE4 = b'Wrong'
-MESSAGE5 = b'correct'
+    TCP_IP = '192.168.254.11'
+    TCP_PORT = 5612
+    BUFFER_SIZE = 1024
+    MESSAGE = b'Easy'
+    MESSAGE1 = b'Hard'
+    MESSAGE2 = b'0'
+    MESSAGE3 = b'Correct'
+    MESSAGE4 = b'Wrong'
+    MESSAGE5 = b'correct'
 
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setwarnings(False)
+    GPIO.setup(23,GPIO.OUT)
+    GPIO.setup(24,GPIO.IN)
+    GPIO.setup(16,GPIO.IN)
+    GPIO.setup(17,GPIO.IN)
+    GPIO.setup(22,GPIO.IN)
+    GPIO.setup(26,GPIO.OUT)
+    GPIO.setup(27,GPIO.OUT)
+    GPIO.setup(6,GPIO.OUT)
+    GPIO.setup(5,GPIO.IN)
 
+    s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-GPIO.setup(23,GPIO.OUT)
-GPIO.setup(24,GPIO.IN)
-GPIO.setup(16,GPIO.IN)
-GPIO.setup(17,GPIO.IN)
-GPIO.setup(22,GPIO.IN)
-GPIO.setup(26,GPIO.OUT)
-GPIO.setup(27,GPIO.OUT)
-GPIO.setup(6,GPIO.OUT)
-GPIO.setup(5,GPIO.IN)
+    s.connect((TCP_IP,TCP_PORT))
 
+    while True:
 
-s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect((TCP_IP,TCP_PORT))
-
-
-while True:
     light = random.randint(1,2)
+    
     if GPIO.input(16):
+    
+    
         GPIO.output(26, True)
+        
         s.send(MESSAGE3)
+        
         time.sleep(1)
+        
         s.send(MESSAGE2)
+        
         time.sleep(1)
         
     elif GPIO.input(17):
@@ -152,6 +161,8 @@ while True:
             GPIO.output(26,False)
             GPIO.output(27,False)
             GPIO.output(6,False)
+
+
 
 ## References
 
