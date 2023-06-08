@@ -82,42 +82,42 @@ Display Screen
 
 
     import RPi.GPIO as GPIO
-import time
-import socket
-import random
+    import time
+    import socket
+    import random
 
 
-TCP_IP = '192.168.254.11'
-TCP_PORT = 5612
-BUFFER_SIZE = 1024
-MESSAGE = b'Easy'
-MESSAGE1 = b'Hard'
-MESSAGE2 = b'0'
-MESSAGE3 = b'Correct'
-MESSAGE4 = b'Wrong'
-MESSAGE5 = b'correct'
+    TCP_IP = '192.168.254.11'
+    TCP_PORT = 5612
+    BUFFER_SIZE = 1024
+    MESSAGE = b'Easy'
+    MESSAGE1 = b'Hard'
+    MESSAGE2 = b'0'
+    MESSAGE3 = b'Correct'
+    MESSAGE4 = b'Wrong'
+    MESSAGE5 = b'correct'
 
 
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-GPIO.setup(17,GPIO.OUT)
-GPIO.setup(27,GPIO.OUT)
-GPIO.setup(23,GPIO.OUT)
-GPIO.setup(22,GPIO.IN)
-GPIO.setup(24,GPIO.IN)
-GPIO.setup(5,GPIO.IN)
-GPIO.setup(6,GPIO.IN)
-GPIO.setup(16,GPIO.IN)
-GPIO.setup(26,GPIO.IN)
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setwarnings(False)
+    GPIO.setup(17,GPIO.OUT)
+    GPIO.setup(27,GPIO.OUT)
+    GPIO.setup(23,GPIO.OUT)
+    GPIO.setup(22,GPIO.IN)
+    GPIO.setup(24,GPIO.IN)
+    GPIO.setup(5,GPIO.IN)
+    GPIO.setup(6,GPIO.IN)
+    GPIO.setup(16,GPIO.IN)
+    GPIO.setup(26,GPIO.IN)
 
 
-s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect((TCP_IP,TCP_PORT))
+    s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    s.connect((TCP_IP,TCP_PORT))
 
-count = 0
+    count = 0
 
-while True:
+    while True:
     light = random.randint(1,2)
     if GPIO.input(24):
         count = count +1
