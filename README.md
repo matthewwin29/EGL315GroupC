@@ -61,7 +61,7 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 ![Alt text](Images/4.PNG)
 
 ## Setup
-![Alt text](Images/setup1.PNG)
+![Alt text](Images/setup1.jpg)
 
 ## Christie Pnadora Box Information
 
