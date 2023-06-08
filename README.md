@@ -69,7 +69,7 @@ Display Screen
 ![Alt text](Images/setup3.jpeg)
 GUI Display
 ![Alt text](Images/GUI.jpeg)
-Simple Window
+Simpl Window
 ![Alt text](Images/SIMPL.jpeg)
 
 ## Christie Pandora Box Information
