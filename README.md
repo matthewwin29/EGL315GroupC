@@ -1,4 +1,4 @@
-# EGL 315 PROJCT DEFUSION - GROUP C
+# EGL 315 PROJECT DEFUSION - GROUP C
 
 This **markdown document** will explain the steps necessary to install the required libraries to run the feature's python script, a detailed explanation of the funtions of the code, the reasoning for the theme I selected for the project and my intention on how it would interact with the audience during the End Of Semester showcase.
 
@@ -67,8 +67,12 @@ Projector Setup
 ![Alt text](Images/setup2.jpeg)
 Display Screen
 ![Alt text](Images/setup3.jpeg)
+GUI Display
+![Alt text](Images/GUI.jpeg)
+Simple Window
+![Alt text](Images/SIMPL.jpeg)
 
-## Christie Pnadora Box Information
+## Christie Pandora Box Information
 
 ![Alt text](Images/315_CONTENT.PNG)
 ![Alt text](Images/315_TIMELINE.PNG)
