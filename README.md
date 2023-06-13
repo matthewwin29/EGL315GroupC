@@ -27,9 +27,13 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 ## IP Adresses
 cp3: 192.168.254.90
+
 Laptop C2: 192.168.254.130
+
 Laptop C1: 192.168.254.13
+
 Media Server: 192.168.254.36
+
 Raspberry Pi: 192.168.254.103
 
 # Research
