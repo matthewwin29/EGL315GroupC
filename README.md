@@ -25,7 +25,7 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 - Lighting
 - Buttons
 
-## IP Addresses
+## IP Address
 cp3: 192.168.254.90
 
 Laptop C2: 192.168.254.130
