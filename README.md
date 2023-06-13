@@ -25,6 +25,12 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 - Lighting
 - Buttons
 
+## IP Adresses
+cp3: 192.168.254.90
+Laptop C2: 192.168.254.130
+Laptop C1: 192.168.254.13
+Media Server: 192.168.254.36
+Raspberry Pi: 192.168.254.103
 
 # Research
 
@@ -46,6 +52,9 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 ## Lighting
 ![Alt text](images/Lighting.png)
+
+## Floor Plan
+![Alt text](<images/floor plan.png>)
 
 
 ![](images/Pi4.jpg)
@@ -82,7 +91,10 @@ Simpl Window
 
 ![Alt text](Images/WIDGET_315.PNG)
 
-# Code:
+## Equipment List
+![Alt text](<images/equipment list.PNG>)
+
+## Code
 
 
     import RPi.GPIO as GPIO
