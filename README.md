@@ -34,7 +34,9 @@ Laptop C1: 192.168.254.13
 
 Media Server: 192.168.254.36
 
-Raspberry Pi: 192.168.254.103
+Raspberry Pi 1: 192.168.254.102
+
+Raspberry Pi 2: 192.168.254.101
 
 # Research
 
@@ -46,11 +48,12 @@ Raspberry Pi: 192.168.254.103
 ## System Diagram
 ## Control
 
-![VIDEO](https://github.com/matthewwin29/EGL315GroupC/assets/48461855/8a6cab54-6b9e-4a18-98d0-08924ef8a2a8)
+![Alt text](images/315control.png)
 
 
 ## Video
-![Alt text](images/Video.png)
+![VIDEO](https://github.com/matthewwin29/EGL315GroupC/assets/48461855/8a6cab54-6b9e-4a18-98d0-08924ef8a2a8)
+
 
 ## Audio
 ![Alt text](images/Audio.png)
