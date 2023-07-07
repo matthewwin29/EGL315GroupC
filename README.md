@@ -34,7 +34,7 @@ Laptop C1: 192.168.254.13
 
 Media Server: 192.168.254.36
 
-Raspberry Pi 1: 192.168.254.102
+Raspberry Pi 1: 192.168.254.100
 
 Raspberry Pi 2: 192.168.254.101
 
