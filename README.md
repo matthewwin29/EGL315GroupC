@@ -52,11 +52,13 @@ Raspberry Pi 2: 192.168.254.101
 
 
 ## Video
-![VIDEO](https://github.com/matthewwin29/EGL315GroupC/assets/48461855/8a6cab54-6b9e-4a18-98d0-08924ef8a2a8)
+![315video](https://github.com/matthewwin29/EGL315GroupC/assets/48461855/bcb76644-b9ff-4806-ae8c-eade38984eb5)
+
 
 
 ## Audio
-![Alt text](images/Audio.png)
+![AUDIO315](https://github.com/matthewwin29/EGL315GroupC/assets/48461855/5f3f7d08-425a-4124-b170-503482be2d62)
+
 
 ## Lighting
 ![Alt text](images/Lighting.png)
