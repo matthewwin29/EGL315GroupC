@@ -20,13 +20,31 @@ We intend to give our users/players a memorable, immersive, competitive and inte
 
 ## **Hardware Used**
 - Raspberry Pi
-- Christie's Pandora Box
+    ~ Used to control the buttons and ir sensors
+
 - Speakers
+    ~ 6 speakers surrounding the audience to provide them clear and surround sound
 - Lighting
-- Buttons
+    ~
+
+  ## Software used
+- Christie's Pandora Box
+    ~ Used for all the content shown from projector
+    ~ Communicates with the rest of the elements (Widget Designer and Raspberry Pi)
+    ~ Raspberry Pi and Pandora communicate by python code, this code tells the devices which cue to jump to
+- Widget Designer
+    ~ used to send command to pandora box, eg (jump to cue,jump to specific sequence,play/pause video)
+- Grandma 3
+    ~ Used to control lightings and lighting cue lists
+- Pro Tools
+    ~ used for controlling which speaker outputs what audio at specific time stamps
+- VNC Viewer
+    ~ Used to access Raspberry Pis on the laptop
+- Christie's Server Management
+    ~ Used to show pandora box's content to the projector
+  
 
 ## IP Address
-cp3: 192.168.254.90
 
 Laptop C2: 192.168.254.130
 
@@ -226,18 +244,11 @@ Simpl Window
            
 
 ## References
+Starting screen, tutorial,winner video,game over video and credits - Adobe Premiere Pro
 
-https://www.youtube.com/watch?v=Wa5aasz5VXg&ab_channel=RottenTomatoesTrailers - trailer(scene 0)
+Bomb Timer - https://www.youtube.com/watch?v=OYrTQsi1NtE
 
-https://www.youtube.com/watch?v=qEX7iznFi3E - Audio Spectrum(wave)
-
-https://www.topmediai.com/text-to-speech/ - Used for dialouge 
-
-https://www.youtube.com/watch?v=OYrTQsi1NtE&t=4s - C4 Bomb with Timer
-
-https://www.youtube.com/watch?v=7guNNC2QEKo - Timer Ticking Noise
-
-https://www.youtube.com/watch?v=RfUKmEDNlsA - Explosion
+explosion effect - https://www.pexels.com/search/videos/explosion/
 
 https://www.youtube.com/watch?v=_ttHanoHTL4 - explosion sound
 
