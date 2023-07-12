@@ -36,8 +36,6 @@ We intend to give our users/players a memorable, immersive, competitive and inte
     ~ used to send command to pandora box, eg (jump to cue,jump to specific sequence,play/pause video)
 - Grandma 3
     ~ Used to control lightings and lighting cue lists
-- Pro Tools
-    ~ used for controlling which speaker outputs what audio at specific time stamps
 - VNC Viewer
     ~ Used to access Raspberry Pis on the laptop
 - Christie's Server Management
