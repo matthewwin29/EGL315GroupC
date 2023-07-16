@@ -97,15 +97,11 @@ Raspberry Pi 2: 192.168.254.101
 
 ## Setup
 Game Setup
-![Alt text](Images/setup1.jpg)
+
 Projector Setup
 ![Alt text](Images/setup2.jpeg)
 Display Screen
 ![Alt text](Images/setup3.jpeg)
-GUI Display
-![Alt text](Images/GUI.jpeg)
-Simpl Window
-![Alt text](Images/SIMPL.jpeg)
 
 ## Christie Pandora Box Information
 
