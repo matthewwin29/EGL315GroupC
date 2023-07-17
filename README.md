@@ -50,9 +50,9 @@ Laptop C1: 192.168.254.13
 
 Media Server: 192.168.254.36
 
-Raspberry Pi 1: 192.168.254.100
+Raspberry Pi 1: 192.168.254.101
 
-Raspberry Pi 2: 192.168.254.101
+Raspberry Pi 2: 192.168.254.102
 
 # Research
 
@@ -113,8 +113,8 @@ Display Screen
 
 ![Alt text](Images/WIDGET_315.PNG)
 
-## Equipment List
-![Alt text](<images/equipment list.PNG>)
+## BOM List
+![Alt text](<images/bom list 315.png>)
 
 ## Code
 
