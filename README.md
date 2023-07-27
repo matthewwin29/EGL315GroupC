@@ -2,7 +2,7 @@
 
 This **markdown document** will explain the steps necessary to install the required libraries to run the feature's python script, a detailed explanation of the funtions of the code, the reasoning for the theme I selected for the project and my intention on how it would interact with the audience during the End Of Semester showcase.
 
-# Syntax
+# Table of Contents
 1. ## Theme
     1. Theme choice
     2. Intention of use
@@ -291,7 +291,7 @@ Bomb Timer - https://www.youtube.com/watch?v=OYrTQsi1NtE
 
 explosion effect - https://www.pexels.com/search/videos/explosion/
 
-https://www.youtube.com/watch?v=_ttHanoHTL4 - explosion sound
+explosion sound - https://www.youtube.com/watch?v=_ttHanoHTL4
 
 
 
