@@ -38,7 +38,7 @@ def distance():
 
     return distance
 
-count = 0
+
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect((TCP_IP,TCP_PORT))
@@ -136,6 +136,8 @@ while True:
 
     #start of the game put timer bomb and static light shit here
     elif GPIO.input(22):
+        count = 0
+        print(count)
         print("start")
         subprocess.run(["python","staticTut.py"])
         subprocess.Popen(["python", "timer.py"])
